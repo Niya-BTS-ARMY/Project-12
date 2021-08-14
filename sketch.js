@@ -84,7 +84,8 @@ if(keyDown("s")){
 if(keyDown("m")){
   astronaut.addAnimation("moving" , move);
   astronaut.changeAnimation("moving");
-  astronaut.y=350;
+  astronaut.y=100;
+  astronaut.x=100;
   astronaut.velocityX=2;
   astronaut.velocityY=2;
 }
